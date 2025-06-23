@@ -129,3 +129,29 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+.tipu {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin: 50px auto; optional: center horizontally
+}
+
+.tipu:hover {
+      transform: scale(1.05); /* Zoom in a bit */
+      box-shadow: 0 12px 25px rgba(0, 209, 255, 0.3); /* soft glow */
+}
+
+.tipu h3 {
+      color: #00d1ff;
+}
+
+.tipu a {
+      color: #ccc;
+      text-decoration: underline;
+}
+#head1{
+  text-shadow: 1px 1px 2px rgb(226, 220, 233);
+
+}
