@@ -1,4 +1,4 @@
-particlesJS("particles-js", {
+ particlesJS("particles-js", {
       particles: {
         number: {
           value: 90,
@@ -8,7 +8,7 @@ particlesJS("particles-js", {
           }
         },
         color: {
-          value: "#00d1ff"  // 🔵 Light blue color
+          value: ["#00d1ff", "#ffffff"]   // 🔵 Light blue color
         },
         shape: {
           type: "circle"
@@ -36,7 +36,7 @@ particlesJS("particles-js", {
         line_linked: {
           enable: true,
           distance: 150,
-          color: "#00d1ff",
+          color: "#ffffff",
           opacity: 0.2,
           width: 1
         },
